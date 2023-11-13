@@ -1,0 +1,84 @@
+.login-container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 104, 54);
+}
+
+.login-form {
+    background: rgba(210, 135, 135, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    float: right;
+    margin-right: 200px;
+    margin-top: 220px;
+    width: 300px;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+input {
+    height: 20px;
+}
+
+Button {
+    display: none;
+    width: 10px;
+    justify-content: center;
+}
+
+.greetings>span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.greetings>span:nth-child(3) {
+    animation-delay: .4s;
+}
+
+.greetings>span:nth-child(4) {
+    animation-delay: .6s;
+}
+
+.greetings>span:nth-child(5) {
+    animation-delay: .8s;
+}
+
+.greetings>span:nth-child(6) {
+    animation-delay: 1s;
+}
+
+
+.greetings>span {
+    animation: glow 2.5s ease-in-out infinite;
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        color: #0011ff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+
+    10%,
+    90% {
+        color: #111;
+        text-shadow: none;
+    }
+
+}
+
+.menu {
+    background-color: white;
+    
+}

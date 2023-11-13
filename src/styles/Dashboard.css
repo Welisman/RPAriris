@@ -1,0 +1,177 @@
+.dashboard-container {
+    height: 100vh;
+    background-color: white;
+    justify-content: row;
+    padding: 16px;
+}
+
+.sidebar {
+    width: 282px;
+    height: 100%;
+    background: rgb(238, 238, 238);
+    color: black;
+    border: 1px solid black;
+    position: fixed;
+}
+
+.sidebar .logo {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+.about {
+    text-align: none;
+}
+
+
+
+.bar-home {
+    margin-right: 50%;
+    width: 50%;
+}
+
+.nav-home Button {
+    margin-right: 50%;
+    height: 100px;
+    background-color: rgb(238, 238, 238);
+    color: #fff;
+    float: right;
+    margin-right: 20%;
+    border: 1px solid black;
+    width: 200px;
+    border: none;
+}
+
+.main-content {
+    display: flex;
+}
+
+.nav-home {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: black;
+}
+
+.nav-home .btn {
+    color: black;
+    border: solid black;
+}
+
+.Set {
+    border: 1px solid black;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.tweet-input {
+    width: 80%;
+    height: 70px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.story {
+    margin-top: 20%;
+    width: 100%;
+    height: 170px;
+    background-color: rgb(238, 238, 238);
+    color: #fff;
+    float: right;
+    margin-right: -1px;
+    border: 1px solid black;
+}
+
+.profile {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.icon {
+    padding: 15px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.icons {
+    color: blue;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.btn3 {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.post {
+    width: 100%;
+    height: 170px;
+    background-color: rgb(238, 238, 238);
+    color: #000000;
+    margin-right: -1px;
+    border: 1px solid black;
+    float:  right;
+    
+}
+
+.romano {
+    width:70px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    border: 1px solid black;
+
+}
+
+.checkCircle {
+    color: blue;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.pertama {
+    display: flex;
+}
+
+.nama {
+    display: flex;
+    margin-left: 10px;
+}
