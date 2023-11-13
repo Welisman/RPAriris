@@ -1,3 +1,4 @@
+/* Home>dasboard-container */
 .dashboard-container {
     height: 100vh;
     background-color: white;
@@ -5,12 +6,12 @@
     padding: 16px;
 }
 
+/* Sidebar */
 .sidebar {
     width: 282px;
-    height: 100%;
+    height: 80%;
     background: rgb(238, 238, 238);
     color: black;
-    border: 1px solid black;
     position: fixed;
 }
 
@@ -42,43 +43,37 @@ ul li {
     list-style-type: none;
 }
 
+
 .about {
     text-align: none;
 }
 
-
-
+/* NavHome */
 .bar-home {
-    margin-right: 50%;
-    width: 50%;
+    background-color: rgb(238, 238, 238);;
+    /* margin-left: 30%; */
+    /* width: 55%; */
 }
 
-.nav-home Button {
-    margin-right: 50%;
-    height: 100px;
-    background-color: rgb(238, 238, 238);
+.nav-home{
+    height: 50px;
+    background-color: rgb(238, 238, 238, 0.85);
     color: #fff;
-    float: right;
-    margin-right: 20%;
-    border: 1px solid black;
-    width: 200px;
-    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    z-index: 99;
 }
 
 .main-content {
     display: flex;
 }
 
-.nav-home {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    color: black;
-}
-
 .nav-home .btn {
     color: black;
     border: solid black;
+    width: 200px;
 }
 
 .Set {
@@ -88,6 +83,7 @@ ul li {
     height: 100px;
 }
 
+/* Story */
 .tweet-input {
     width: 80%;
     height: 70px;
@@ -103,7 +99,7 @@ ul li {
 }
 
 .story {
-    margin-top: 20%;
+    margin-top: 70px;
     width: 100%;
     height: 170px;
     background-color: rgb(238, 238, 238);
@@ -139,9 +135,10 @@ ul li {
     margin-right: 20px;
 }
 
+/* Post */
 .post {
-    width: 100%;
-    height: 170px;
+    width: 100%;    
+    /* height: 10000px;  */
     background-color: rgb(238, 238, 238);
     color: #000000;
     margin-right: -1px;
@@ -169,9 +166,29 @@ ul li {
 
 .pertama {
     display: flex;
+    cursor: pointer; 
+}
+
+.tag {
+    color: #ccc;
 }
 
 .nama {
     display: flex;
     margin-left: 10px;
+}
+
+.paragraf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.image {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

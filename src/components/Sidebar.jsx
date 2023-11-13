@@ -11,13 +11,13 @@ const Sidebar = () => {
                         <Link to="/Home"><HomeIcon></HomeIcon></Link>
                     </li>
                     <li>
-                        <Link to="/About">About</Link>
+                        <Link to="/Home/About">About</Link>
                     </li>
                     <li>
-                        <Link to="/Notification">Notification</Link>
+                        <Link to="/Home/Notification">Notification</Link>
                     </li>
                     <li>
-                        <Link to="">Profile</Link>
+                        <Link to="/Home/Profile ">Profile</Link>
                     </li>
                 </ul>
             </nav>

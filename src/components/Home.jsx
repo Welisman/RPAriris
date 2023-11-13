@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="dashboard-container">
                 <NavHome />
-                <Sidebar />
+                {/* <Sidebar /> */}
         </div>
     );
 };
