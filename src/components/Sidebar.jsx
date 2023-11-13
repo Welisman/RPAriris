@@ -1,17 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
+import { Typography } from '@mui/material';
+import SearchIcon from '@mui/icons-material/Search';
+
+
+
 const Sidebar = () => {
     return (
         <div className="sidebar">
-             <div className="logo">Study</div>
+             <Typography variant="h3" className="logo">SUNDAY</Typography>
             <nav className="nav-menu">
                 <ul>
                     <li>
-                        <Link to="/Home"><HomeIcon></HomeIcon></Link>
+                        <Link to="/Home"><HomeIcon>Home</HomeIcon></Link>
                     </li>
                     <li>
-                        <Link to="/Home/About">About</Link>
+                        <Link to="/Home/Search"><SearchIcon>Search</SearchIcon></Link>
                     </li>
                     <li>
                         <Link to="/Home/Notification">Notification</Link>
