@@ -142,6 +142,7 @@ ul li {
 .pertama {
     display: flex;
     cursor: pointer; 
+    background-color: rgb(238, 238, 238);
 }
 
 .tag {
@@ -188,11 +189,7 @@ ul li {
 
 /* ShowMore */
 .showmore{
-    margin-top: 0px;
-    background-color: rgb(238, 238, 238);
-    width: 80%;
-    border-top: 1px solid black;
-    display: flex;
+    height: 100%;
 }
 
 .judul {

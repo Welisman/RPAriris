@@ -126,12 +126,15 @@ const Search = () => {
                         <Typography variant="body2">2,411 posts</Typography>
                     </Button>
                 </div>
+                <Button style={{ color: 'black', float: 'right', marginTop: '-65px', marginRight: '20px' }}>
+                    <MoreHorizIcon />
+                </Button>
 
             </div>
 
-                <div className="showmore">
-                    <ShowMore />
-                </div>
+            <div className="showmore">
+                <ShowMore />
+            </div>
         </div>
     );
 };

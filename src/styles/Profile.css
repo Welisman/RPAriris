@@ -1,3 +1,35 @@
-button{
-    background-color: blue;
+.nav-profil{
+    height: 50px;
+    background-color: rgb(238, 238, 238, 0.85);
+    color: #fff;
+    color: black;
+    z-index: 99;
+    position: fixed;
+    width: 59%;
 }
+
+.date {
+    background: rgb(238, 238, 238);    width: 84%;
+    /* height: ; */
+    margin-top: -11%;
+}
+
+.head {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+ .foll {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 100px;
+    display: flex;
+ }
+
+ .cal {
+    margin-left: 3%;
+ }
+
+ .lex {
+    display: flex;
+ }

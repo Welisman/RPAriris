@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
 import { Typography } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
+import Person2Icon from '@mui/icons-material/Person2';
 
 
 
@@ -22,7 +23,7 @@ const Sidebar = () => {
                         <Link to="/Home/Notification">Notification</Link>
                     </li>
                     <li>
-                        <Link to="/Home/Profile ">Profile</Link>
+                        <Link to="/Home/Profile "><Person2Icon>Profile</Person2Icon></Link>
                     </li>
                 </ul>
             </nav>
