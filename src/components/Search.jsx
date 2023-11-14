@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Dashboard.css";
-import { Typography } from "@mui/material";
+import { Typography, Button } from "@mui/material";
 import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
-import { Button } from "@mui/material";
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import ShowMore from "../utils/ShowMore";
 
 const Search = () => {
+    const [searchInput, setSearchInput] = useState("");
+
+    useEffect(() => {
+        console.log("Nilai input pencarian berubah:", searchInput);
+
+    }, [searchInput]);
+
     return (
         <div>
             <div className="search">
@@ -15,6 +21,8 @@ const Search = () => {
                         type="text"
                         placeholder="Search"
                         className="input"
+                        value={searchInput}
+                        onChange={(e) => setSearchInput(e.target.value)}
                     />
                     <Button>
                         <SettingsApplicationsIcon style={{ color: 'black', marginTop: '15px', marginLeft: '15px' }} />
@@ -22,8 +30,13 @@ const Search = () => {
                 </div>
                 <Typography variant="h4" style={{ marginTop: '10px', marginLeft: '40px' }}>Trends For You</Typography>
 
+                <div>
+                    {/* Contoh penggunaan state untuk menampilkan hasil pencarian */}
+                    <Typography variant="body2">{searchInput && `Hasil pencarian untuk: ${searchInput}`}</Typography>
+                </div>
 
                 <div>
+                    {/* Contoh elemen lain yang mungkin ada di halaman pencarian */}
                     <Button style={{ color: 'black', width: 'auto', marginLeft: '30px', padding: 'none', marginTop: '10px' }}>
                         <Typography variant="H5">Trending in Indonesia</Typography>
                     </Button>
